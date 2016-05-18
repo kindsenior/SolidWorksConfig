@@ -1,0 +1,248 @@
+* (c)2006 Solidworks Corp.
+* Swift 寸法ﾃｷｽﾄﾌｫｰﾏｯﾄ定義ﾌｧｲﾙ
+* 作成日: 2006年11月27日
+**
+* 区切り記号 
+* ; はこのﾌｫｰﾏｯﾄを吹き出しﾃｷｽﾄ行 1; 寸法ﾃｷｽﾄ行 2; および吹き出しﾃｷｽﾄ行 3 または必要に応じてそれ以上に区切ります。
+* \ 文字は、吹き出しﾃｷｽﾄが次の行ともつながっていることを示し、 * 文字は、ｺﾒﾝﾄ行であることを示します。 
+*   編集関連の追加ｺﾒﾝﾄはこのﾌｧｲﾙの下部に明記されています。
+**
+**************************************************************************************************
+
+**Swift 吹き出しの変数
+**sft_holeDia
+**sft_holeDep
+**sft_cbDep,
+**sft_cbDia,
+**sft_csDia,
+**sft_csAng,
+**sft_slotLen,
+**sft_slotWid,
+**sft_slotHgt,
+**sft_bsDia,
+**sft_bsLen,
+**sft_threadDesc,
+**sft_chamferDepth1,
+**sft_chamferDepth2,
+**sft_chamferAng,
+**<COUNT=Prefix#Suffix>
+
+[ANSI]
+
+BOSS=<COUNT=#X > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=#X ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=#X ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=#X ><sft_slotWid> X <sft_slotLen>
+SLOT-DECORATE=<COUNT=#X >R
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=#X ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=#X ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=#X > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=#X > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=#X ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=#X ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=#X > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=#X > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=#X ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=#X ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=#X > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=#X > <sft_holeDia>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[ISO]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+SLOT-DECORATE=<COUNT=#X >R
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[DIN]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[JIS]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[BS]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[GOST]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+
+[GB]
+BOSS=<COUNT=# x > <sft_bsDia>
+
+CHAMFER(angle)=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferAng>
+CHAMFER=<COUNT=# x ><sft_chamferDepth1>  X <sft_chamferDepth2>
+
+SLOT=<COUNT=# x ><sft_slotWid> X <sft_slotLen>
+
+SIMPLEHOLE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU(thread)=<COUNT=# x ><sft_threadDesc>
+SIMPLEHOLE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>
+SIMPLEHOLE-THRU=<COUNT=# x > <sft_holeDia>
+
+COUNTERBORE-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+COUNTERBORE-THRU=<COUNT=# x > <sft_holeDia>;\
+		<HOLE-SPOT> <sft_cbDia> <HOLE-DEPTH> <sft_cbDep>
+
+COUNTERSINK-BLIND(thread)=<COUNT=# x ><sft_threadDesc> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU(thread)=<COUNT=# x ><sft_threadDesc>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-BLIND=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
+COUNTERSINK-THRU=<COUNT=# x > <sft_holeDia> <HOLE-DEPTH> <sft_holeDep>;\
+		<HOLE-SINK> <sft_csDia> X <sft_csAng>
