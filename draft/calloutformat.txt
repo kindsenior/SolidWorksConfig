@@ -2104,7 +2104,8 @@ HOLE-BLIND(csns)=; <hw-diam> <HOLE-DEPTH> <hw-depth>;\
 	<HOLE-SINK> <hw-nscsdia> X <hw-nscsang>, <hw-msgnearside>
 *
 *
-HOLE-THRU=; <hw-diam> <hw-thru>
+* HOLE-THRU=; <hw-diam> <hw-thru>
+HOLE-THRU=; <hw-diam>ÉLÉä
 *
 * with farside countersink
 HOLE-THRU(csfs)=; <hw-diam> <hw-thru>;\
@@ -2187,8 +2188,10 @@ TAP-BLIND(ctcsns)= <hw-tapdrldia> <HOLE-DEPTH> <hw-tapdrldepth>;\
 	<HOLE-SINK> <hw-nscsdia> X <hw-nscsang>, <hw-msgnearside>
 *
 * drilledand tapped thru
-TAP-THRU(tt)= <hw-thrutapdrldia> <hw-thru>;\
-	<hw-threaddesc> - 6H <hw-thru>
+* TAP-THRU(tt)= <hw-thrutapdrldia> <hw-thru>;\
+* 	<hw-threaddesc> - 6H <hw-thru>
+TAP-THRU(tt)= <hw-threaddesc>
+
 *
 * with nearside countersink
 TAP-THRU(ttcsns)= <hw-thrutapdrldia> <hw-thru>;\
@@ -2211,8 +2214,10 @@ TAP-DRILLTHRU= <hw-tapdrldia> <hw-thru>;\
 	<hw-threaddesc> - 6H <HOLE-DEPTH> <hw-threaddepth>
 *
 * with cosmetic thread and drilled and tapped thru
-TAP-DRILLTHRU(cstt)= <hw-thrutapdrldia> <hw-thru>;\
-	<hw-threaddesc> - 6H <hw-thru>
+* TAP-DRILLTHRU(cstt)= <hw-thrutapdrldia> <hw-thru>;\
+* 	<hw-threaddesc> - 6H <hw-thru>
+TAP-DRILLTHRU(cstt)= <hw-threaddesc>
+
 *
 * with farside countersink
 TAP-DRILLTHRU(csfs)= <hw-tapdrldia> <hw-thru>;\
