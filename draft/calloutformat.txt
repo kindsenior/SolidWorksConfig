@@ -2307,7 +2307,9 @@ DOWEL-NOMINAL-BLIND(csns)=; <hw-diam> <HOLE-DEPTH> <hw-depth>;\
 	<HOLE-SINK> <hw-nscsdia> X <hw-nscsang>, <hw-msgnearside>
 *
 * Blind Hole
-DOWEL-NOMINAL-THRU=; <hw-diam> <hw-thru>
+* DOWEL-NOMINAL-THRU=; <hw-diam> <hw-thru>
+DOWEL-NOMINAL-THRU=; <hw-diam>
+
 *
 * with farside countersink
 DOWEL-NOMINAL-THRU(csfs)=; <hw-diam> <hw-thru>;\
