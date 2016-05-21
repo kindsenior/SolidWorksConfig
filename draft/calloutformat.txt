@@ -2135,8 +2135,10 @@ COUNTERSINK-BLIND(headclr)= <hw-diam> <HOLE-DEPTH> <hw-depth>;\
 	<HOLE-SPOT> <hw-csdia> <HOLE-DEPTH> <hw-headclr>
 *
 * Thru Hole
-COUNTERSINK-THRU= <hw-thruholedia> <hw-thru>;\
-	<HOLE-SINK> <hw-csdia> X <hw-csang>
+* COUNTERSINK-THRU= <hw-thruholedia> <hw-thru>;\
+* 	<HOLE-SINK> <hw-csdia> X <hw-csang>
+COUNTERSINK-THRU= <hw-thruholedia> <HOLE-SINK> <hw-csdia> <hw-csang>
+
 *
 * with farside countersink
 COUNTERSINK-THRU(csfs)= <hw-thruholedia> <hw-thru>;\
