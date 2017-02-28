@@ -11,7 +11,7 @@
           <Item>Limb</Item>
         </Data>
       </Control>
-      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>J1</Item>
           <Item>S</Item>
@@ -20,7 +20,7 @@
       <Control Label="図番" PropName="図番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
       <Control Label="個数" PropName="個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
       <Control Label="鏡映個数" PropName="鏡映個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
-      <Control Label="発注先" PropName="発注先" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="発注先" PropName="発注先" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>新妻精機</Item>
           <Item>蒲郡製作所</Item>
@@ -31,7 +31,7 @@
           <Item>モノタロウ</Item>
         </Data>
       </Control>
-      <Control Label="表面処理" PropName="表面処理" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="表面処理" PropName="表面処理" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>黒アルマイト</Item>
           <Item>白アルマイト</Item>
