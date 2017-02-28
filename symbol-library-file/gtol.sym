@@ -159,8 +159,8 @@ A,TEXT .6,.3,L
 *DEG,“x
 A,CIRCLE .2,.8,.1
 *DIAM,’¼Œa
-A,CIRCLE .5,.5,.35
-A,LINE .3,.0,.7,1.
+;;A,CIRCLE .5,.5,.35
+;;A,LINE .3,.0,.7,1.
 *SPHDIA,‹…Œ`’¼Œa
 A,TEXT .3,.525, S
 A,CIRCLE 1.0,.5,.35
