@@ -2238,8 +2238,10 @@ TAP-DRILLTHRU(csnf)= <hw-tapdrldia> <hw-thru>;\
 	<HOLE-SINK> <hw-fscsdia> X <hw-fscsang>, <hw-msgfarside>
 *
 * with cosmetic thread
-TAP-DRILLTHRU(ct)= <hw-tapdrldia> <hw-thru>;\
-	<hw-threaddesc> - 6H <HOLE-DEPTH> <hw-threaddepth>
+* TAP-DRILLTHRU(ct)= <hw-tapdrldia> <hw-thru>;\
+* 	<hw-threaddesc> - 6H <HOLE-DEPTH> <hw-threaddepth>
+TAP-DRILLTHRU(ct)= <hw-threaddesc>
+
 *
 * with cosmetic thread and nearside countersink
 TAP-DRILLTHRU(ctcsns)= <hw-tapdrldia> <hw-thru>;\
