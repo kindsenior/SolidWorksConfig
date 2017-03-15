@@ -5,7 +5,7 @@
       <Control Label="図番タイプ" PropName="図番タイプ" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
         <Data Path="" SourceType="List">
           <Item>一般図番</Item>
-          <Item>ダミー図版</Item>
+          <Item>ダミー図番</Item>
           <Item>図番不要</Item>
           <Item>計算不要</Item>
           <Item>Limb</Item>
@@ -13,6 +13,7 @@
       </Control>
       <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
+          <Item>J3</Item>
           <Item>J1</Item>
           <Item>S</Item>
         </Data>
@@ -26,6 +27,7 @@
           <Item>蒲郡製作所</Item>
           <Item>エージェンシー</Item>
           <Item>メタルスピード</Item>
+          <Item>三ツ星ベルト</Item>
           <Item>板金工房</Item>
           <Item>ミスミ</Item>
           <Item>モノタロウ</Item>
@@ -35,6 +37,7 @@
         <Data Path="" SourceType="List">
           <Item>黒アルマイト</Item>
           <Item>白アルマイト</Item>
+          <Item>青アルマイト</Item>
           <Item>赤アルマイト</Item>
           <Item>黒染め</Item>
         </Data>
