@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CPTemplate>
   <CPSheet>
     <GroupBox Label="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ" PropName="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ2" DefaultState="Expanded">
@@ -9,18 +9,18 @@
           <Item>図番不要</Item>
           <Item>計算不要</Item>
           <Item>Limb</Item>
-          </Data>
+        </Data>
       </Control>
-      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>J1</Item>
           <Item>S</Item>
-          </Data>
-	  </Control>
+        </Data>
+      </Control>
       <Control Label="図番" PropName="図番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
       <Control Label="個数" PropName="個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
       <Control Label="鏡映個数" PropName="鏡映個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
-      <Control Label="発注先" PropName="Order" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="発注先" PropName="Order" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>新妻精機</Item>
           <Item>蒲郡製作所</Item>
@@ -31,13 +31,14 @@
           <Item>モノタロウ</Item>
         </Data>
       </Control>
-      <Control Label="表面処理" PropName="Surface" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="表面処理" PropName="Surface" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>黒アルマイト</Item>
           <Item>白アルマイト</Item>
           <Item>赤アルマイト</Item>
         </Data>
       </Control>
-      <Control Label="型番" PropName="型番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />    </GroupBox>
+      <Control Label="型番" PropName="型番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
   </CPSheet>
 </CPTemplate>
