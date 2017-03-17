@@ -2,7 +2,7 @@
 project_dir=$(cd $(dirname ${0}); pwd;)
 project_dir=${project_dir/\/scripts/}
 echo "project dir is "$project_dir
-project_dir_yen=${project_dir//\//\\\\}
+project_dir_yen=${project_dir//\//\\\\\\\\}
 echo "project dir with \ is "$project_dir_yen
 
 # generate users from cygdrive path
@@ -27,8 +27,8 @@ done
 for user in $users
 do
     sed $project_dir/settings/swSettings_general.sldreg -e s#@project_dir_slash@#${drive}\:\/cygwin64${project_dir}#gi \
-	| sed -e s#@project_dir_yen@#${drive}\:\\\\cygwin64${project_dir_yen}#gi \
-	| sed -e s#@user_dir@#${drive}\:\\\\Users\\\\${user}#gi \
+	| sed -e s#@project_dir_yen@#${drive}\:\\\\\\\\cygwin64${project_dir_yen}#gi \
+	| sed -e s#@user_dir@#${drive}\:\\\\\\\\Users\\\\\\\\${user}#gi \
 	> $project_dir/settings/swSettings_${user}.sldreg
 done
 
