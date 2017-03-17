@@ -1735,7 +1735,7 @@ REGEDIT4
 "Macro Feature Folders"=""
 "Hyperlink History"=""
 "Custom Symbol Folders"=""
-"Document Template Folders"="@project_dir_yen@\\document-template"
+"Document Template Folders"="@project_dir_yen@;@project_dir_yen@\\sheetformat;@project_dir_yen@\\document-template"
 "Sustainability template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese"
 "Symbol Library Folders"="@project_dir_yen@\\symbol-library-file"
 "Costing template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese"
@@ -1755,7 +1755,7 @@ REGEDIT4
 "SolidWorks Journal Folders"="C:\\Users\\CURRENT_USER\\AppData\\Roaming\\SolidWorks\\SOLIDWORKS 2015"
 "Search Web Folders"=dword:00000001
 "Custom Property Folders"="@project_dir_yen@\\user-defined-property-file"
-"Dimension Favorite Folders"=@user_dir@\\Documents"
+"Dimension Favorite Folders"="@project_dir_yen@\\favorite-scalling-annotate-item;@user_dir@\\Documents"
 "Hole Callout Format Folders"="@project_dir_yen@\\draft"
 "Weldment Profile Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese\\weldment profiles"
 "Color Swatch Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese\\colorswatches"
@@ -1763,7 +1763,7 @@ REGEDIT4
 "Custom Apperance Folders"=""
 "Custom Decal Folders"=""
 "Custom Scene Folders"=""
-"Material Database Folders"="@project_dir_yen@\\material-database;C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2015\\’∞ªﬁ∞íËã`çﬁóø"
+"Material Database Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese\\sldmaterials;@project_dir_yen@\\material-database;C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2015\\’∞ªﬁ∞íËã`çﬁóø"
 "Texture Folders"=""
 "Weldment Custom Property Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2015\\lang\\japanese\\Weldments"
 "Hole Table Template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\japanese"
@@ -2043,8 +2043,8 @@ REGEDIT4
 "Twist Count Value Per Meter"="5"
 "Show Mate Reference Errors"=dword:00000000
 "EnableBackups"=dword:00000000
-"Backup directory"=@user_dir@\\AppData\\Local\\TempSWBackupDirectory"
-"AutoRecover Directory"=@user_dir@\\AppData\\Local\\TempSWBackupDirectory\\swxauto"
+"Backup directory"="@user_dir@\\AppData\\Local\\TempSWBackupDirectory"
+"AutoRecover Directory"="@user_dir@\\AppData\\Local\\TempSWBackupDirectory\\swxauto"
 "AutoRecover Mode"=dword:00000001
 "SaveNotification"=dword:00000001
 "SaveNotificationDismiss"=dword:00000001
@@ -2273,7 +2273,7 @@ REGEDIT4
 "Reattach mates in component replacements"=dword:00000001
 "Config choice for replacing components"=dword:00000000
 "Replace all instances of component"=dword:00000000
-"Last user path"=@user_dir@\\Desktop\\"
+"Last user path"="@user_dir@\\Desktop\\"
 "RMB learning mode"=dword:00000001
 "Enable Zebra Stripes preview"=dword:00000000
 "Software OGL Alarm"=dword:00000001
