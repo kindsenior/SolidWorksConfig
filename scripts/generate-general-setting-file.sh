@@ -23,8 +23,9 @@ user=${users[0]}
 echo "user name is "${user}
 
 # input file name is swSettings.sldreg
-sed $project_dir/settings/swSettings.sldreg -e s#\"[^\"]*/solidworksconfig#\"@project_dir_slash@#gi \
-    | sed  -e s#\"[^\"]*\\\\solidworksconfig#\"@project_dir_yen@#gi \
-    | sed  -e s#\"[^\"]*\\\\${user}#@user_dir@#gi \
+# sed $project_dir/settings/swSettings.sldreg -e s#\"[^\"]*/solidworksconfig#\"@project_dir_slash@#gi \
+sed $project_dir/settings/swSettings.sldreg -e s#[^\"\;]*/solidworksconfig#@project_dir_slash@#gi \
+    | sed  -e s#[^\"\;]*\\\\solidworksconfig#@project_dir_yen@#gi \
+    | sed  -e s#[^\"\;]*\\\\${user}#@user_dir@#gi \
     > $project_dir/settings/swSettings_general.sldreg
 
