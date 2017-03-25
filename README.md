@@ -2,9 +2,10 @@
 This package is config files of SolidWorks
 
 - 設定方法
-  SolidWorks起動->オプション->ファイルの検索->プルダウン=ユーザー定義プロパティファイル
-  でこのパッケージのディレクトリを指定する
-
+  - cygwinにてscripts/install-setting-file.shを実行してsettings/swSettings_<User Name>.sldregを生成
+  - SolidWorksを起動して設定の保存/回復→設定の回復で生成したsldregファイルを指定して次へ
+  - 完了
+ 
 - ファイルプロパティについて
   - 値の設定方法
     タスクパネル->ユーザー定義プロパティ
