@@ -9343,13 +9343,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Recent Macro File List]
 "File1"="@project_dir_yen@\\macro\\PrepareToOrder.swp"
 "File2"="@project_dir_yen@\\macro\\SaveAsPDFandDXFandIGS.swp"
-"File3"="D:\\Google ドライブ\\CAD\\Macro1.swp"
-"File4"="@project_dir_yen@\\macro\\AddFlatPatternSheet.swp"
-"File5"="D:\\Google ドライブ\\CAD\\new-leg-plate\\Macro1.swp"
-"File6"="@project_dir_yen@\\macro\\Macro2.swp"
-"File7"="D:\\Google ドライブ\\CAD\\Macro2.swp"
-"File8"="D:\\Google ドライブ\\CAD\\Macro6.swp"
-"File9"="D:\\Google ドライブ\\CAD\\SaveAsPDFandDXF.swp"
+"File3"="@project_dir_yen@\\macro\\AddFlatPatternSheet.swp"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Reference Triad]
 "Use alternate labels"=dword:00000000
