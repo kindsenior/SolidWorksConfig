@@ -3,15 +3,10 @@ project_dir=$(cd $(dirname ${0}); pwd;)
 project_dir=${project_dir/scripts/}
 echo "project dir is "$project_dir
 
-# generate users from cygdrive path
+# generate users
 users=()
-for drive in $(ls /cygdrive)
-do
-    if [ -e /cygdrive/$drive/Users ]
-    then
-	users+=`ls /cygdrive/$drive/Users|grep -v cyg|grep -vi public|grep -vi user|grep -vi default|grep -vi desktop`
-    fi
-done
+usersdir=${USERPROFILE}/../
+users+=`ls ${usersdir}|grep -v cyg|grep -vi public|grep -vi user|grep -vi default|grep -vi desktop`
 
 echo "user name is"
 for user in $users
@@ -27,4 +22,3 @@ sed $project_dir/settings/swSettings.sldreg -e s#[^\"\;]*/solidworksconfig#@proj
     | sed  -e s#[^\"\;]*\\\\solidworksconfig#@project_dir_yen@#gi \
     | sed  -e s#[^\"\;]*\\\\${user}#@user_dir@#gi \
     > $project_dir/settings/swSettings_general.sldreg
-
