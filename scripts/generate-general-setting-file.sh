@@ -1,11 +1,11 @@
 
 project_dir=$(cd $(dirname ${0}); pwd;)
-project_dir=${project_dir/scripts/}
+project_dir=$(cygpath -w ${project_dir/\/scripts/})
 echo "project dir is "$project_dir
 
 # generate users
 users=()
-usersdir=${USERPROFILE}/../
+usersdir=${USERPROFILE}\\..\\
 users+=`ls ${usersdir}|grep -v cyg|grep -vi public|grep -vi user|grep -vi default|grep -vi desktop`
 
 echo "user name is"
