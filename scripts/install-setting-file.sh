@@ -20,7 +20,7 @@ done
 
 for user in $users
 do
-    sed $project_dir/settings/swSettings_general.sldreg -e s#@project_dir_slash@#${project_dir}#gi \
+    sed $project_dir/settings/swSettings_general.sldreg -e s#@project_dir_slash@#${project_dir_slash}#gi \
     | sed -e s#@project_dir_yen@#${project_dir_yen}#gi \
     | sed -e s#@user_dir@#${drive}\:\\\\\\\\Users\\\\\\\\${user}#gi \
     > $project_dir/settings/swSettings_${user}.sldreg
