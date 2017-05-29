@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CPTemplate>
+  <AppVersion>24</AppVersion>
   <CPSheet>
     <GroupBox Label="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ" PropName="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ2" DefaultState="Expanded">
       <Control Label="図番タイプ" PropName="図番タイプ" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
@@ -27,9 +28,13 @@
           <Item>蒲郡製作所</Item>
           <Item>エージェンシー</Item>
           <Item>メタルスピード</Item>
-          <Item>三ツ星ベルト</Item>
+          <Item>日双工業</Item>
+          <Item>阪井金属</Item>
           <Item>板金工房</Item>
+          <Item>三ツ星ベルト</Item>
           <Item>ミスミ</Item>
+          <Item>廣杉計器</Item>
+          <Item>廣杉・タイガ</Item>
           <Item>モノタロウ</Item>
         </Data>
       </Control>
