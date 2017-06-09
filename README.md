@@ -16,7 +16,7 @@ This package is config files of SolidWorks
       - order-listをテーブルテンプレートとして部品表を挿入
       - 部品表から個数,表面処理,発注先等の各種プロパティを設定
       - アセンブリタブの「PrepareToOrder」を押す
-      - フォームから発注先と出力ディレクトリを指定して「Export Files」を押す
+      - フォームから発注先と出力ディレクトリを指定して「Export Files」を押す
   - 板金展開図面作成
     - 展開図面を作成したい部品の図面ファイルを開く
     - レイアウト表示タブの「AddFlatPatternSheet」を押す
