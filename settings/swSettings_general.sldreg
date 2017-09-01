@@ -553,6 +553,11 @@ REGEDIT4
 "key"=dword:0000004c
 "cmd"=dword:0000832e
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate0\Custom Accelerators\AddArray\11_77]
+"fVirt"=dword:0000000b
+"key"=dword:0000004d
+"cmd"=dword:000080f0
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate0\Custom Accelerators\AddArray\11_81]
 "fVirt"=dword:0000000b
 "key"=dword:00000051
@@ -852,6 +857,11 @@ REGEDIT4
 "fVirt"=dword:0000000b
 "key"=dword:0000004c
 "cmd"=dword:0000832e
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate1\Custom Accelerators\AddArray\11_77]
+"fVirt"=dword:0000000b
+"key"=dword:0000004d
+"cmd"=dword:000080f0
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate1\Custom Accelerators\AddArray\11_81]
 "fVirt"=dword:0000000b
@@ -1162,6 +1172,11 @@ REGEDIT4
 "fVirt"=dword:0000000b
 "key"=dword:0000004c
 "cmd"=dword:0000832e
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate2\Custom Accelerators\AddArray\11_77]
+"fVirt"=dword:0000000b
+"key"=dword:0000004d
+"cmd"=dword:000080f0
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Customization\tPlate2\Custom Accelerators\AddArray\11_81]
 "fVirt"=dword:0000000b
@@ -1531,17 +1546,17 @@ REGEDIT4
 "Drawing Annotation Mask"=dword:2f800cfa
 "Drawing Annotation Mask2"=dword:00000400
 "Bend Note Style"=dword:00000000
-"MRU Length Dimension1"="0.004"
-"MRU Length Dimension2"="0.106"
-"MRU Length Dimension3"="0.108"
-"MRU Angle Dimension1"="1.0471975511966"
-"MRU Length Dimension4"="0.09"
-"MRU Length Dimension5"="0.009"
+"MRU Length Dimension1"="0.007"
+"MRU Length Dimension2"="0.132"
+"MRU Length Dimension3"="0.0045"
+"MRU Angle Dimension1"="0.78539816339745"
+"MRU Length Dimension4"="0.014"
+"MRU Length Dimension5"="0.0015"
 "Show Dimension Names"=dword:00000000
-"MRU Angle Dimension2"="1.5707963267949"
-"MRU Angle Dimension3"="0.0872664625997093"
+"MRU Angle Dimension2"="0.218166156499292"
+"MRU Angle Dimension3"="0.436332312998583"
 "MRU Angle Dimension4"="0.349065850398867"
-"MRU Angle Dimension5"="0.610865238198017"
+"MRU Angle Dimension5"="0.26179938779915"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Direct Edit]
 "Enable Direct Edit"=dword:00000000
@@ -1664,7 +1679,7 @@ REGEDIT4
 "Link Dim Text"=dword:00000001
 "Detail Hatch Scale"=dword:00000000
 "Clip detail view sketch"=dword:00000000
-"Paper Scale1"="2"
+"Paper Scale1"="1"
 "Paper Scale2"="1"
 "Auto update BOM"=dword:00000001
 "save as layer in pdf"=dword:00000000
@@ -1962,8 +1977,8 @@ REGEDIT4
 "UserExperienceLevel"=dword:00000001
 "MenuVersion"="SOLIDWORKS 2016"
 "ActivateTabletThemeOnTouch"=dword:00000001
-"Last Splash Id"=dword:00000008
-"Unit System"=dword:00000004
+"Last Splash Id"=dword:00000002
+"Unit System"=dword:00000003
 "Units Type"=dword:00000000
 "Dont Ask Default Template Preferences"=dword:00000001
 "AsmVirtualSubassemblyViewType"=dword:00000000
@@ -1993,7 +2008,7 @@ REGEDIT4
 "Interval for SaveNotification"=dword:00000014
 "Interval for SaveNotificationDismiss"=dword:00000005
 "Display Shaded Planes"=dword:00000001
-"Sheet Metal Bend Position"=dword:00000001
+"Sheet Metal Bend Position"=dword:00000003
 "PD Color 3"=dword:004d3c39
 "Prompt to close sketch"=dword:00000001
 "Open CGR Data"=dword:00000001
@@ -2004,7 +2019,7 @@ REGEDIT4
 "Display All Drawing Relations"=dword:00000000
 "Dont Show Assembly HLR In Color"=dword:00000000
 "Sheet Metal Jog Radius"="0"
-"Sheet Metal Cross Break Radius"="0"
+"Sheet Metal Cross Break Radius"="0.001"
 "Use Fillet Mgr"=dword:00000000
 "Sheet Metal Hem Type"=dword:00000001
 "Major Grid Spacing (English)"="0.0254"
@@ -2019,18 +2034,18 @@ REGEDIT4
 "Show Warnings"=dword:00000000
 "Show all mate entities"=dword:00000001
 "Transparency Type for In-context Edit"=dword:00000001
-"Custom Properties Dialog settings"="876,555,1"
-"Display Shadows In Shaded Mode"=dword:00000001
+"Custom Properties Dialog settings"="995,557,1"
+"Display Shadows In Shaded Mode"=dword:00000000
 "Mold Do Gradual Trans"=dword:00000000
 "Display Virtual Sharps"=dword:00000001
 "Match Background in FeatureManager"=dword:00000000
 "Sheet Metal Break Corner Use Ratio"=dword:00000000
 "Angle Increment"="0.0174532925199433"
 "Structural Member Apply End Condition"=dword:00000001
-"Replace all instances of component"=dword:00000001
+"Replace all instances of component"=dword:00000000
 "Display Output Coordinate System in Corner of Window in Mass Prop Dialog"=dword:00000001
 "Sheet Metal Allowance Type"=dword:00000001
-"Sheet Metal Thickness"="0.0015"
+"Sheet Metal Thickness"="0.001"
 "Display grid plane when shaded"=dword:00000000
 "RemoveBackupsDays"=dword:00000007
 "Sheet Metal K Factor"="0.5"
@@ -2047,21 +2062,21 @@ REGEDIT4
 "Extend/Trim Corner"=dword:00000000
 "Number of Angle Digits"=dword:00000002
 "Show Rebuild Errors"=dword:00000001
-"Display All Spline Handles"=dword:00000001
+"Display All Spline Handles"=dword:00000000
 "Prompt to set driven state when dim is overdefining"=dword:00000001
 "Highlight new or modified faces"=dword:00000001
 "Sheet Metal Normat Cut"=dword:00000001
 "EnablePDMSync"=dword:00000001
 "Material Density"="1000"
 "Sheet Metal Jog Angle"="0"
-"Sheet Metal Cross Break Angle"="0"
-"Measure Dialog position"="2446,244,310,200,0"
+"Sheet Metal Cross Break Angle"="1.5707963267949"
+"Measure Dialog position"="2792,185,310,200,0"
 "Auto Simplify Drawing View"=dword:00000000
 "Use HLR Shaded Edge Color"=dword:00000001
 "Angle Snap Value"="0.78539816339745"
 "Maximize Documents On Open"=dword:00000001
 "Background Image"="smoke.png"
-"Sheet Metal Radius"="0.0007366"
+"Sheet Metal Radius"="0.0005"
 "Length Increment (English)"="0.00254"
 "Structural Member Corner"=dword:00000000
 "Move sketch entities not solving the sketch"=dword:00000000
@@ -2161,7 +2176,7 @@ REGEDIT4
 "Enable references external to the model"=dword:00000001
 "Mold Tooling Split Length 1"="-1"
 "Modal Commands"=dword:00000001
-"Number of Significant Digits"=dword:00000002
+"Number of Significant Digits"=dword:00000005
 "Active PM Skin Name"=""
 "Backup to original path"=dword:00000000
 "OnScreen Buttons"=dword:00000001
@@ -2266,8 +2281,8 @@ REGEDIT4
 "AutoSize PropertyManager"=dword:00000001
 "Extend/Trim Apply Gap"=dword:00000000
 "Extend/Trim Gap Value"="0"
-"TableFormatDialogX"=dword:00000cd3
-"TableFormatDialogY"=dword:000002eb
+"TableFormatDialogX"=dword:00000d2e
+"TableFormatDialogY"=dword:0000028a
 "AutoBackup After Mesh Or Run Study"=dword:00000000
 "Hide Decals in SW render"=dword:00000000
 "Time Increment"="0.1"
@@ -2291,7 +2306,7 @@ REGEDIT4
 "Enable Feature Filter"=dword:00000001
 "MultiCAD"=dword:00000000
 "Add Dimensions To Line Entity"=dword:00000000
-"Add Dimensions To Rectangle Entity"=dword:00000000
+"Add Dimensions To Rectangle Entity"=dword:00000001
 "Add Dimensions To Arc Entity"=dword:00000000
 "Add Dimensions To Circle Entity"=dword:00000001
 "Add Dimensions To Slot Entity"=dword:00000000
@@ -2312,7 +2327,7 @@ REGEDIT4
 "Reconnect RTRenderer Animation NumFrames"=dword:00000000
 "Add Dimension On Sketch Numerical Input"=dword:00000000
 "Enable Measure Dialog Point to Point Mode"=dword:00000000
-"Set Arc/Circle status for Measure Dialog"=dword:00000000
+"Set Arc/Circle status for Measure Dialog"=dword:00000001
 "Set Arc/Circle first selection status for Measure Dialog"=dword:00000001
 "Set Arc/Circle second selection status for Measure Dialog"=dword:00000001
 "View Rotate About Vertical"=dword:00000000
@@ -2449,14 +2464,14 @@ REGEDIT4
 "RMB Leaning mode"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\General\Addin Performance]
-".\fworks\fworks.dll_AutoLoaded"="0.043"
-".\sldUtils\SwLoaderSw.dll_AutoLoaded"="0.056"
+".\fworks\fworks.dll_AutoLoaded"="0.031"
+".\sldUtils\SwLoaderSw.dll_AutoLoaded"="0.196"
 "C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\Simulation\cosworks.dll"="38.767"
-"SOLIDWORKS Composer"="0.027"
-"SOLIDWORKS Forum 2016"="0.493"
-"SOLIDWORKS Design Checker"="0.021"
-"sldFuncFeat_AutoLoaded"="0.271"
-"sldanalysistools_AutoLoaded"="0.063"
+"SOLIDWORKS Composer"="0.031"
+"SOLIDWORKS Forum 2016"="0.502"
+"SOLIDWORKS Design Checker"="0.024"
+"sldFuncFeat_AutoLoaded"="0.443"
+"sldanalysistools_AutoLoaded"="0.1"
 "SOLIDWORKS Forum 2015"="0.071"
 "PhotoView 360"="0.435"
 ".\toolbox\swtoolbox.dll"="0.19"
@@ -2504,7 +2519,7 @@ REGEDIT4
 "MSG_EXTERN_REFS_CHANGED2"=dword:00000006
 "MSG_PART_UPDATE_ERROR_ON_SAVE"=dword:ffffffff
 "MSG_LINKED_DESIGN_TABLE"=dword:ffffffff
-"IDS_CONTINUE_REBUILD_AFTER_ERROR"=dword:ffffffff
+"IDS_CONTINUE_REBUILD_AFTER_ERROR"=dword:00000001
 "MSG_DIM_OVER_MAKE_DRIVEN"=dword:ffffffff
 "1:1 Scale Output Warning"=dword:ffffffff
 "High Quality DWG Export Warning"=dword:ffffffff
@@ -2739,10 +2754,10 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\cbore_depth]
-"current_value"="2.4"
+"current_value"="3.3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\cbore_dia]
-"current_value"="7."
+"current_value"="6.5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\far_csink_ang]
 "current_value"="0.000000"
@@ -2751,16 +2766,16 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\favorite]
-"current_value"="cbore"
+"current_value"="cbore_5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\favorite_changed]
-"current_value"="0"
+"current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\head_clear]
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\hole_depth]
-"current_value"="0.001"
+"current_value"="0.0085"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\hole_end_condition]
 "current_value"="2"
@@ -2772,7 +2787,7 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\offset_value]
-"current_value"="0.001"
+"current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\Size]
 "current_value"="M3"
@@ -2790,10 +2805,10 @@ REGEDIT4
 "current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\Type]
-"current_value"="なべ頭十字穴 ISO 7045"
+"current_value"="六角穴付き頭 ISO 4762"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cbore\TypeEnum]
-"current_value"="138"
+"current_value"="139"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\cboreslot]
 
@@ -2899,10 +2914,10 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\hole_depth]
-"current_value"="0.01"
+"current_value"="0.004"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\hole_end_condition]
-"current_value"="0"
+"current_value"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\near_csink_ang]
 "current_value"="90.000000"
@@ -2911,7 +2926,7 @@ REGEDIT4
 "current_value"="6.72"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\offset_value]
-"current_value"="0"
+"current_value"="0.004"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\Size]
 "current_value"="M3"
@@ -2923,7 +2938,7 @@ REGEDIT4
 "current_value"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\thru_hole_dia]
-"current_value"="3.4"
+"current_value"="5."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\csink\thru_hole_fit]
 "current_value"="1"
@@ -2973,7 +2988,7 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\hole\offset_value]
-"current_value"="0.00824"
+"current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\hole\Size]
 "current_value"="O3.0"
@@ -3250,13 +3265,13 @@ REGEDIT4
 "current_value"="0.001"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\Size]
-"current_value"="O8.0"
+"current_value"="M3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\SlotDimScheme]
 "current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\SlotLength]
-"current_value"="15."
+"current_value"="6."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\SlotOrientation]
 "current_value"="0"
@@ -3271,16 +3286,16 @@ REGEDIT4
 "current_value"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\thru_hole_dia]
-"current_value"="8."
+"current_value"="3."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\thru_hole_fit]
 "current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\Type]
-"current_value"="ﾄﾞﾘﾙ ｻｲｽﾞ"
+"current_value"="ねじすきま"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\holeslot\TypeEnum]
-"current_value"="143"
+"current_value"="144"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\ptap]
 
@@ -3344,7 +3359,7 @@ REGEDIT4
 "current_value"="118.000000"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\cosmetic_thread]
-"current_value"="2"
+"current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\far_csink_ang]
 "current_value"="0.000000"
@@ -3353,13 +3368,13 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\favorite]
-"current_value"="tap_5"
+"current_value"="tap_21"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\favorite_changed]
 "current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\hole_depth]
-"current_value"="0.0015"
+"current_value"="0.012"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\hole_end_condition]
 "current_value"="2"
@@ -3374,10 +3389,10 @@ REGEDIT4
 "current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\offset_value]
-"current_value"="0.0015"
+"current_value"="0.012"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\Size]
-"current_value"="M6"
+"current_value"="M3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\Standard]
 "current_value"="ISO"
@@ -3398,16 +3413,16 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\thread_depth]
-"current_value"="0.012"
+"current_value"="0.006"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\thread_depth_hcoil]
-"current_value"="0.012"
+"current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\thread_type]
 "current_value"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\thru_hole_dia]
-"current_value"="5."
+"current_value"="2.5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Hole Wizard\tap\Type]
 "current_value"="ねじ穴"
@@ -3432,7 +3447,7 @@ REGEDIT4
 "Use Brep"=dword:00000000
 "Import Free Curves"=dword:00000000
 "Import As Multiple Bodies Setting"=dword:00000000
-"VRMLSTL Import Units"=dword:00000000
+"VRMLSTL Import Units"=dword:00000002
 "Import Unit Setting"=dword:00000000
 "Use Customized Tolerance"=dword:00000000
 "IDF Add board drilled holes"=dword:00000000
@@ -3444,7 +3459,7 @@ REGEDIT4
 "UG tool body import"=dword:00000000
 "Auto Run Import Diagnostics Persistence"=dword:00000000
 "Auto Run Import Diagnostics"=dword:00000001
-"VRML Import Model Type"=dword:00000002
+"VRML Import Model Type"=dword:00000000
 "Knitting Option"=dword:00000000
 "IDF Reverse underside components"=dword:00000000
 "Import 2D Sketches"=dword:00000001
@@ -3550,7 +3565,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Material]
 "Favorite Material 9"="SOLIDWORKS materials|ﾆｯｹﾙ|51"
-"_LastMaterialUsed"="solidworks materials|5052-H38|151"
+"_LastMaterialUsed"="solidworks materials|7075-T6 (SN)|177"
 "_LastMaterialUnit"=dword:00000000
 "Favorite Material 8"="SOLIDWORKS materials|PBT (一般用)|38"
 "Favorite Material 10"="SOLIDWORKS materials|ｺﾞﾑ|79"
@@ -7613,6 +7628,39 @@ REGEDIT4
 "229401"=dword:00000000
 "294937"=dword:00000000
 "426857"=dword:00000000
+"19240"=dword:00000000
+"379060"=dword:00000000
+"55028"=dword:00000000
+"549061"=dword:00000000
+"549027"=dword:00000000
+"544960"=dword:00000000
+"562746"=dword:00000000
+"20672"=dword:00000000
+"52071"=dword:00000000
+"557090"=dword:00000000
+"349839"=dword:00000000
+"168747"=dword:00000000
+"168749"=dword:00000000
+"168753"=dword:00000000
+"575819"=dword:00000000
+"33770"=dword:00000000
+"33038"=dword:00000000
+"37848"=dword:00000000
+"52225"=dword:00000000
+"33639"=dword:00000000
+"1655"=dword:00000000
+"38351"=dword:00000000
+"444747"=dword:00000000
+"426809"=dword:00000000
+"41637"=dword:00000000
+"169731"=dword:00000000
+"169732"=dword:00000000
+"169740"=dword:00000000
+"360514"=dword:00000000
+"430688"=dword:00000000
+"430686"=dword:00000000
+"444454"=dword:00000000
+"52208"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\Page]
 "Use Documents Settings"=dword:00000001
@@ -7722,7 +7770,7 @@ REGEDIT4
 "Custom Thread Preview Type"=dword:00000001
 "Custom Thread EndSpec Type"=dword:00000001
 "Angular Tessellation Number"=dword:00000006
-"Saved OGL Settings"=dword:000000f7
+"Saved OGL Settings"=dword:000000b7
 "OGL Display Shaders"=dword:00000001
 "OGL Shaders"=dword:00000001
 "ANIM XML"=dword:00000000
@@ -9811,7 +9859,7 @@ REGEDIT4
 "Checked Buttons"="11,8,5,10,7,9,6"
 "Show Dissection UI"=dword:00000000
 "First Time Dissection Scheduled"=dword:00000001
-"Search Mode"=dword:00000001
+"Search Mode"=dword:00000005
 "Include Content Alphanumeric Search"=dword:00000001
 "Show Launch Quicktip"=dword:00000000
 
@@ -9878,9 +9926,9 @@ REGEDIT4
 "New Dump File Available"=dword:00000000
 "Finished Last Time"=dword:00000000
 "Last Date Code"="24/2016195"
-"Check In"=dword:0000035b
-"Idle"=dword:00000000
-"Last Settings Time"=dword:592be51d
+"Check In"=dword:000055f6
+"Idle"=dword:00001dbf
+"Last Settings Time"=dword:59a6481f
 "Disable Crash Diagnosis"=dword:00000000
 "Force Sequence"=dword:00000000
 
@@ -10828,7 +10876,7 @@ REGEDIT4
 "Btn0"="2,33551"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\CommandManager\PartContext]
-"Active Tab Index"="4"
+"Active Tab Index"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\CommandManager\PartContext\Tab0]
 "Tab Props"="23255,1,1,24"
@@ -11657,85 +11705,85 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\Dialogs]
 "uiUnitsDimStdDlg_c"="0,1,-1,-1,-1,-1,488,350,798,621"
-"uiNewDocDlg_c"="0,1,-1,-1,-1,-1,339,285,1057,822"
+"uiNewDocDlg_c"="0,1,-1,-1,-1,-1,2658,432,3376,969"
 "uiAddInDlg_c"="0,1,-1,-1,-1,-1,2379,313,2808,840"
-"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,229,563"
+"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,229,604"
 "uiInsertCompExistingDveDlg3_copts"="dexps_7_prv_1_rotdlg_1_tfmexps_0_"
 "uiNamedViewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,230,864"
 "uiNamedViewDveDlg_copts"="dexps_7167_tfmexps_0_"
-"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,197,67"
-"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,257,145"
+"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,245,67"
+"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,249,145"
 "uiDveSketchMessageDlg_copts"="tfmexps_0_dexps_1_"
-"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,230,865"
+"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,285,833"
 "uiSkRectangleProp_copts"="dexps_8343_tfmexps_0_"
-"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,237,405"
+"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,245,459"
 "uiComPropSkSegDlg_copts"="dexps_119_tfmexps_0_"
-"uiPointPropDlg_c"="0,1,-1,-1,-1,-1,0,0,230,395"
+"uiPointPropDlg_c"="0,1,-1,-1,-1,-1,0,0,245,333"
 "uiPointPropDlg_copts"="dexps_31_tfmexps_0_"
 "uiDveEndSpecDlg_copts"="tfmexps_0_dexps_16114_"
-"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,201,272"
-"uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,201,106"
+"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,205,313"
+"uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,205,106"
 "uiPreviewDlg_copts"="dexps_2_"
 "saveAllDlg_c"="0,1,-1,-1,-1,-1,2387,824,3000,1163"
 "uiOptionsBase_c"="0,1,-1,-1,-1,-1,2793,316,3789,1088"
 "uiDrSheetPropDlgSheet_c"="0,1,-1,-1,-1,-1,2294,497,2928,1129"
 "uiScaleAnnotationsDlg_c"="0,1,-1,-1,-1,-1,2465,722,2757,876"
-"uiSummaryInfoDlg_c"="0,1,-1,-1,-1,-1,2243,333,3119,888"
+"uiSummaryInfoDlg_c"="0,1,-1,-1,-1,-1,2243,333,3238,890"
 "uiDveHwInsertHole_copts"="tfmexps_0_dexps_14_"
-"uiDveHwHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,265,772"
+"uiDveHwHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,245,769"
 "uiDveHwHoleSpec_copts"="tfmexps_0_dexps_511_"
-"uiDveHwInsertHole_c"="0,1,-1,-1,-1,-1,0,0,265,137"
-"uiDVEUnfoldViewDlg_c"="0,1,-1,-1,-1,-1,0,0,230,864"
+"uiDveHwInsertHole_c"="0,1,-1,-1,-1,-1,0,0,245,169"
+"uiDVEUnfoldViewDlg_c"="0,1,-1,-1,-1,-1,0,0,230,667"
 "uiDVEUnfoldViewDlg_copts"="dexps_2559_tfmexps_0_"
-"uiDialog_c"="0,1,-1,-1,-1,-1,2506,518,2851,1001"
-"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,230,645"
+"uiDialog_c"="0,1,-1,-1,-1,-1,2506,518,2854,702"
+"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,301,532"
 "uiDVEMultiDimPropPageValue_copts"="dexps_28843_tfmexps_0_"
-"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,230,530"
-"uiLinePropDlg_copts"="dexps_87_tfmexps_0_"
-"uiParamDlg"="0,1,-1,-1,-1,-1,3355,847,3617,971"
-"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,230,226"
-"uiArcPropDlg_copts"="dexps_8339_tfmexps_0_"
-"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,0,557,447"
+"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,245,295"
+"uiLinePropDlg_copts"="dexps_55_tfmexps_0_"
+"uiParamDlg"="0,1,-1,-1,-1,-1,3520,291,3782,415"
+"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,249,502"
+"uiArcPropDlg_copts"="dexps_8343_tfmexps_0_"
+"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,0,205,507"
 "uiDveFilletDlg_copts"="dexps_142_tfmexps_0_fltype_0_"
-"uiNamedViewDlg_c"="0,1,-1,-1,-1,-1,3828,375,4037,629"
+"uiNamedViewDlg_c"="0,1,-1,-1,-1,-1,3202,822,3411,1095"
 "uiFindDetailItemText_c"="0,1,-1,-1,-1,-1,8,8,381,174"
 "uiShellDveDlg_copts"="tfmexps_0_dexps_10_"
-"uiShellDveDlg_c"="0,1,-1,-1,-1,-1,0,0,249,306"
+"uiShellDveDlg_c"="0,1,-1,-1,-1,-1,0,0,321,273"
 "uiDynSectionViewDlg_copts"="tfmexps_0_dexps_82_"
-"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,561,516"
+"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,492,516"
 "uiSaveSecViewDlg_c"="0,1,-1,-1,-1,-1,2909,988,3215,1139"
 "dlgMatEditTabProperty_c"="0,1,-1,-1,-1,-1,322,29,785,528"
 "dlgMatEditTabAppearance_c"="0,1,-1,-1,-1,-1,322,29,785,528"
 "uiLPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,261,722"
 "uiLPatternDlg_copts"="dexps_12591_tfmexps_0_vk_0_gp_0_spo_3_spt_1_pc_1_osro_0_osrt_0_ocro_1_ocrt_1_"
-"WPFPage_c"="0,1,-1,-1,-1,-1,3,41,233,50"
+"WPFPage_c"="0,1,-1,-1,-1,-1,3,41,256,50"
 "ConvertEntities_opts"="dexps_0_pin_0_tfmexps_0_"
-"uiOffsetDialog1_c"="0,1,-1,-1,-1,-1,0,0,315,243"
+"uiOffsetDialog1_c"="0,1,-1,-1,-1,-1,0,0,205,243"
 "uiConfDeleteDlg_c"="0,1,-1,-1,-1,-1,674,635,1032,926"
 "uiWWGridCtrl_copts"="52,121"
 "uiNewWhatsWrongDlg_c"="0,1,-1,-1,-1,-1,3084,169,3855,369"
-"uiDVEMultiDimPropPageLeaders_c"="0,1,-1,-1,-1,-1,0,0,230,547"
+"uiDVEMultiDimPropPageLeaders_c"="0,1,-1,-1,-1,-1,0,0,321,434"
 "uiDVEMultiDimPropPageLeaders_copts"="dexps_9229_"
-"uiDVEMultiDimPropPageOther_c"="0,1,-1,-1,-1,-1,0,0,230,347"
+"uiDVEMultiDimPropPageOther_c"="0,1,-1,-1,-1,-1,0,0,321,269"
 "uiDVEMultiDimPropPageOther_copts"="dexps_3649_"
 "uiOffsetDialog1_copts"="tfmexps_0_"
 "materialDveColorDlg_copts"="tfmexps_0_dexps_111_"
-"materialDveColorDlg_c"="0,1,-1,-1,-1,-1,0,0,298,813"
-"materialDveMappingDlg_c"="0,1,-1,-1,-1,-1,0,0,298,470"
+"materialDveColorDlg_c"="0,1,-1,-1,-1,-1,0,0,205,781"
+"materialDveMappingDlg_c"="0,1,-1,-1,-1,-1,0,0,205,193"
 "materialDveMappingDlg_copts"="dexps_1055_"
-"materialDveIlluminationDlg_c"="0,1,-1,-1,-1,-1,0,0,298,497"
+"materialDveIlluminationDlg_c"="0,1,-1,-1,-1,-1,0,0,205,497"
 "materialDveIlluminationDlg_copts"="dexps_7_tfmexps_0_"
-"materialDveSurfaceFinishDlg_c"="0,1,-1,-1,-1,-1,0,0,298,83"
+"materialDveSurfaceFinishDlg_c"="0,1,-1,-1,-1,-1,0,0,205,83"
 "materialDveSurfaceFinishDlg_copts"="dexps_7_"
 "su_CDialogopts"="locationX_312_locationY_1443_"
-"uiNewAddMateDlg_c"="0,1,-1,-1,-1,-1,0,0,541,745"
+"uiNewAddMateDlg_c"="0,1,-1,-1,-1,-1,0,0,502,745"
 "uiNewAddMateDlg_copts"="tfmexps_0_matepreview_1_onscreendialog_1_addfolder_0_pushpin_0_dexps_103_"
-"uiMateAnalysisDlg_c"="0,1,-1,-1,-1,-1,0,0,541,325"
+"uiMateAnalysisDlg_c"="0,1,-1,-1,-1,-1,0,0,502,325"
 "uiMateAnalysisDlg_copts"="dexps_77_"
 "uiComponentMateDlg_c"="0,1,-1,-1,-1,-1,0,0,876,1009"
 "CHTMLPopupWindow"="0,1,-1,-1,-1,-1,2411,1281,2802,1465"
-"uiNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,2186,1308"
-"uiNoteDve_c"="0,1,-1,-1,-1,-1,0,0,230,1055"
+"uiNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,2064,1308"
+"uiNoteDve_c"="0,1,-1,-1,-1,-1,0,0,431,944"
 "uiNoteDve_copts"="dexps_262137_tfmexps_0_"
 "swCommandMgrDockWnd"="0,1,-1,-1,-1,-1,3291,61,3466,656"
 "uiInsertModelItemsDveDlg_copts"="tfmexps_0_dexps_509_"
@@ -11747,11 +11795,11 @@ REGEDIT4
 "uiAutoDimDrwDve_c"="0,1,-1,-1,-1,-1,0,0,230,568"
 "uiAutoDimDrwDve_copts"="dexps_30_"
 "uiAnnViewForTableDlg_c"="0,1,-1,-1,-1,-1,871,624,1253,834"
-"uiBomTableDve_copts"="tfmexps_0_dexps_8055_"
-"uiBomTableDve_c"="0,1,-1,-1,-1,-1,0,0,221,700"
-"uiTableFormatFlyout_c"="0,1,-1,-1,-1,-1,3635,1007,4231,1088"
-"uiBomColumnPropFlyout_c"="0,1,-1,-1,-1,-1,3247,203,3417,294"
-"uiTableNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,2186,1308"
+"uiBomTableDve_copts"="tfmexps_0_dexps_8183_"
+"uiBomTableDve_c"="0,1,-1,-1,-1,-1,0,0,523,726"
+"uiTableFormatFlyout_c"="0,1,-1,-1,-1,-1,3419,200,4015,281"
+"uiBomColumnPropFlyout_c"="0,1,-1,-1,-1,-1,3238,164,3408,255"
+"uiTableNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,2066,1308"
 "uiTableNoteDve_c"="0,1,-1,-1,-1,-1,0,0,230,573"
 "uiTableNoteDve_copts"="dexps_262139_"
 "uiCustomizePropSheet_c"="0,1,-1,-1,-1,-1,2655,355,3419,1124"
@@ -11762,11 +11810,11 @@ REGEDIT4
 "uiTableDlg_copts"="tfmexps_0_dexps_4271_"
 "sld3dviewopts"="dexps_1_"
 "asmuiRebuildAssyDlg_c"="0,1,-1,-1,-1,-1,8,8,502,204"
-"apUserJobDlg_c"="0,1,-1,-1,-1,-1,3173,673,3548,912"
+"apUserJobDlg_c"="0,1,-1,-1,-1,-1,3231,664,3606,903"
 "uiEditMultiPropDlg_c"="0,1,-1,-1,-1,-1,3312,526,3526,606"
 "uiMultipleCompConfigPropDlg_c"="0,1,-1,-1,-1,-1,2274,519,2805,1088"
 "uiEditSketchRelDve_copts"="tfmexps_0_dexps_2_"
-"uiEditSketchRelDve_c"="0,1,-1,-1,-1,-1,0,0,241,387"
+"uiEditSketchRelDve_c"="0,1,-1,-1,-1,-1,0,0,197,387"
 "uiAnnPropDlg_c"="0,1,-1,-1,-1,-1,677,577,1029,983"
 "uoConfigTblDlg_copts"="tfmexps_0_dexps_14_"
 "uoConfigTblDlg_c"="0,1,-1,-1,-1,-1,0,0,389,398"
@@ -11774,11 +11822,11 @@ REGEDIT4
 "uiLinkPropDlg_c"="0,1,-1,-1,-1,-1,2455,944,2898,1370"
 "uiFullyDefineSketchDlg_copts"="tfmexps_0_dexps_3_relation_1_dimension_1_horizontal_1_vertical_1_collinear_1_perpendicular_1_parallel_1_midpoint_1_coincident_1_tangent_1_concentric_1_equal_1_selectedEnts_0_"
 "uiFullyDefineSketchDlg_c"="0,1,-1,-1,-1,-1,0,0,193,164"
-"uiCirPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,225,509"
-"uiCirPatternDlg_copts"="tfmexps_0_dexps_311_esa_360.000000_esc_1_gp_0_pc_1_cn_12_"
-"uiDveSketchMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,574,239"
+"uiCirPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,205,570"
+"uiCirPatternDlg_copts"="tfmexps_0_dexps_295_esa_360.000000_esc_1_gp_0_pc_1_cn_4_"
+"uiDveSketchMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,197,448"
 "uiSelectBodyDlg_c"="0,1,-1,-1,-1,-1,2929,785,3124,1022"
-"uiDveMessageDlg2_c"="0,1,-1,-1,-1,-1,0,0,233,93"
+"uiDveMessageDlg2_c"="0,1,-1,-1,-1,-1,0,0,348,80"
 "uiDveMessageDlg2_copts"="dexps_1_tfmexps_0_"
 "uiEquationDlg_c"="0,1,-1,-1,-1,-1,2381,428,3194,1114"
 "uiEquationDlg_copts"="AR_1_GV_1_GC1U_30_GC2U_32_GC3U_15_"
@@ -11787,58 +11835,58 @@ REGEDIT4
 "uiContentDveDlg_c"="0,1,-1,-1,-1,-1,0,0,512,73"
 "uiContentDveDlg_copts"="dexps_1_"
 "uiAddUpdateFavoriteDlg_c"="0,1,-1,-1,-1,-1,644,717,1062,845"
-"uiTXDimSelectionDve_c"="0,1,-1,-1,-1,-1,0,0,205,158"
+"uiTXDimSelectionDve_c"="0,1,-1,-1,-1,-1,0,0,351,158"
 "uiTXDimSelectionDve_copts"="dexps_2_tfmexps_0_"
 "uiSelectorDialog_c"="0,1,-1,-1,-1,-1,2446,701,2622,744"
 "uiDVEDefaultDialog_copts"="dexps_1_"
 "uiDveApiPage2_copts"="tfmexps_0_"
-"uiDveApiPage2_c"="0,1,-1,-1,-1,-1,0,0,209,486"
-"uiSketchPropertyManager_c"="0,1,-1,-1,-1,-1,0,0,536,329"
+"uiDveApiPage2_c"="0,1,-1,-1,-1,-1,0,0,201,486"
+"uiSketchPropertyManager_c"="0,1,-1,-1,-1,-1,0,0,197,329"
 "uiSketchPropertyManager_copts"="dexps_6_"
 "uiDveSketchMirrorDlg_copts"="tfmexps_0_pin_0_"
 "uiSwiftDimDve_c"="0,1,-1,-1,-1,-1,0,0,197,851"
 "uiSwiftDimDve_copts"="dexps_29867_"
-"uiPolygonPropDlg_c"="0,1,-1,-1,-1,-1,0,0,293,331"
+"uiPolygonPropDlg_c"="0,1,-1,-1,-1,-1,0,0,217,331"
 "uiPolygonPropDlg_copts"="dexps_30_"
 "uiSketchXpertDve_c"="0,1,-1,-1,-1,-1,0,0,582,620"
 "uiSketchXpertDve_copts"="dexps_63_AutoStartOnError_0_bMoreInfoExpand_1_"
-"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,230,390"
+"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,305,377"
 "uiTrimChoicesDlg_copts"="dexps_3_trimMode_0_"
 "uiChamferDveDlg_copts"="tfmexps_0_dexps_6_"
-"uiChamferDveDlg_c"="0,1,-1,-1,-1,-1,0,0,237,376"
+"uiChamferDveDlg_c"="0,1,-1,-1,-1,-1,0,0,447,360"
 "uiMoveCopyBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,197,578"
 "uiMoveCopyBodyDlg_copts"="dexps_50_tfmexps_1_mo_1_mp_1_co_0_"
 "uiMoveFaceDlg_New_copts"="tfmexps_0_mftype_0_dexps_7_"
-"uiMoveFaceDlg_New_c"="0,1,-1,-1,-1,-1,0,0,257,233"
-"uiMirrPatternDveDlg_copts"="tfmexps_0_dexps_270_"
-"uiMirrPatternDveDlg_c"="0,1,-1,-1,-1,-1,0,0,532,359"
+"uiMoveFaceDlg_New_c"="0,1,-1,-1,-1,-1,0,0,209,234"
+"uiMirrPatternDveDlg_copts"="tfmexps_1_dexps_270_"
+"uiMirrPatternDveDlg_c"="0,1,-1,-1,-1,-1,0,0,245,330"
 "uiSkPlaneDialog_copts"="tfmexps_0_dexps_34_"
-"uiSkPlaneDialog_c"="0,1,-1,-1,-1,-1,0,0,536,271"
+"uiSkPlaneDialog_c"="0,1,-1,-1,-1,-1,0,0,217,62"
 "uiCombineBodiesDveDlg_c"="0,1,-1,-1,-1,-1,0,0,316,212"
 "uiCombineBodiesDveDlg_copts"="dexps_70_tfmexps_0_ot_0_"
 "uiFeatureReportDlg_c"="0,1,-1,-1,-1,-1,12,8,354,395"
 "uiMeasureDlg_c"="0,1,-1,-1,-1,-1,0,0,294,36"
 "uiSymbolLibSheet_c"="0,1,-1,-1,-1,-1,2755,374,3360,1097"
 "uiSymbolInsertPage_copts"="NWSL1_3_NWSL2_-1_NWSL3_-1_NWSL4_-1_NWSL5_-1_"
-"uiRevDveDlg_copts"="tfmexps_0_a1_6.28318530717960040_a2_0.00000000000000000_rt_0_tft_0_dexps_2162_"
-"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,220"
+"uiRevDveDlg_copts"="tfmexps_1_a1_6.28318530717960040_a2_0.00000000000000000_rt_0_tft_0_dexps_2162_"
+"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,285,252"
 "WPFPage_copts"="dexps_0_tfmexps_0_"
 "parentChildDlg_c"="0,1,-1,-1,-1,-1,2666,654,3033,986"
-"uiCompConfigPropDlg_c"="0,1,-1,-1,-1,-1,2099,543,2636,1235"
-"uiDveMaterialProperties_c"="0,1,-1,-1,-1,-1,0,0,225,70"
+"uiCompConfigPropDlg_c"="0,1,-1,-1,-1,-1,2144,542,2681,1234"
+"uiDveMaterialProperties_c"="0,1,-1,-1,-1,-1,0,0,205,70"
 "uiDveMaterialProperties_copts"="dexps_0_"
 "uiSelectOtherDlg"="0,1,-1,-1,-1,-1,3289,995,3829,1507"
 "uiHealingDveDlg_copts"="tfmexps_0_dexps_7_"
 "uiHealingDveDlg_c"="0,1,-1,-1,-1,-1,0,0,193,618"
 "uiSectionMassPropDlg_c"="0,1,-1,-1,-1,-1,12,8,501,760"
 "asmViewMatesDlg_c"="0,1,-1,-1,-1,-1,2398,127,2822,423"
-"uiDveMoveCompDlg_c"="0,1,-1,-1,-1,-1,0,0,463,308"
-"uiDveMoveCompDlg_copts"="dexps_18_stc_0_icf_1_es_1_efh_1_tfmexps_0_"
-"uiConfigTable_c"="0,1,-1,-1,-1,-1,2485,203,3020,377"
+"uiDveMoveCompDlg_c"="0,1,-1,-1,-1,-1,0,0,502,372"
+"uiDveMoveCompDlg_copts"="dexps_22_stc_0_icf_1_es_1_efh_1_tfmexps_0_"
+"uiConfigTable_c"="0,1,-1,-1,-1,-1,2718,208,3253,382"
 "uiHideShowDlg_c"="0,1,-1,-1,-1,-1,0,0,379,111"
 "uiHideShowDlg_copts"="dexps_2_"
 "uiCThreadDveDlg_copts"="tfmexps_0_dexps_15_"
-"uiCThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,209,365"
+"uiCThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,201,365"
 "uiSmartFastenerDlg_copts"="tfmexps_0_dexps_29_"
 "uiSmartFastenerDlg_c"="0,1,-1,-1,-1,-1,0,0,406,901"
 "visIsolateDlg"="0,1,-1,-1,-1,-1,2417,125,2589,192"
@@ -11849,12 +11897,12 @@ REGEDIT4
 "uiArrangeCompDlg_c"="0,1,-1,-1,-1,-1,2605,525,3007,883"
 "uiSkDiagDlg_c"="0,1,-1,-1,-1,-1,19,115,397,247"
 "uiGeomDiagnosticsDlg_c"="0,1,-1,-1,-1,-1,2740,748,2987,915"
-"uiDerivedPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,405,406"
+"uiDerivedPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,502,399"
 "uiDerivedPatDvePage_copts"="dexps_63_tfmexps_0_"
-"uiDveBaseFlangeDlg_copts"="tfmexps_0_dexps_16112_"
-"uiDveBaseFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,269,110"
-"uiEdgeFlangeDlg_copts"="tfmexps_0_dexps_78_"
-"uiEdgeFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,261,559"
+"uiDveBaseFlangeDlg_copts"="tfmexps_0_dexps_16114_"
+"uiDveBaseFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,197,233"
+"uiEdgeFlangeDlg_copts"="tfmexps_0_dexps_94_"
+"uiEdgeFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,221,676"
 "uiSimpConfDeleteDlg_c"="0,1,-1,-1,-1,-1,678,668,1038,894"
 "uiDrViewPropDlgSheet_c"="0,1,-1,-1,-1,-1,3331,682,3978,1087"
 "uiShowHiddenDlg_c"="0,1,-1,-1,-1,-1,9,27,628,513"
@@ -11863,12 +11911,12 @@ REGEDIT4
 "uiSectionLineDlgNew_c"="0,1,-1,-1,-1,-1,0,0,230,339"
 "uiSectionLineDlg_c"="0,1,-1,-1,-1,-1,0,0,230,1109"
 "uiSectionLineDlg_copts"="dexps_10623_"
-"uiCenterMarkSymDveDlg_c"="0,1,-1,-1,-1,-1,0,0,230,391"
+"uiCenterMarkSymDveDlg_c"="0,1,-1,-1,-1,-1,0,0,230,703"
 "uiCenterMarkSymDveDlg_copts"="dexps_127_tfmexps_0_"
 "uiDetailCenterLineDlg_c"="0,1,-1,-1,-1,-1,0,0,230,193"
 "uiDetailCenterLineDlg_copts"="dexps_3_tfmexps_0_"
 "uiSymbolPalletteDlg_c"="0,1,-1,-1,-1,-1,819,747,952,816"
-"uiGtolDve_c"="0,1,-1,-1,-1,-1,0,0,230,876"
+"uiGtolDve_c"="0,1,-1,-1,-1,-1,0,0,230,756"
 "uiDetailPropertySheet_c"="0,1,-1,-1,-1,-1,760,565,1363,1033"
 "uiGtolDve_copts"="dexps_1019_tfmexps_0_"
 "uiDimTolDlg_c"="0,1,-1,-1,-1,-1,383,517,833,957"
@@ -11895,9 +11943,9 @@ REGEDIT4
 "uiFmtPainterDveDlg_copts"="dexps_1_"
 "uiBreakViewDve_c"="0,1,-1,-1,-1,-1,0,0,185,73"
 "uiBreakViewDve_copts"="dexps_3_"
-"uiDetailCircleDlg_c"="0,1,-1,-1,-1,-1,0,0,195,858"
+"uiDetailCircleDlg_c"="0,1,-1,-1,-1,-1,0,0,230,1056"
 "uiDetailCircleDlg_copts"="dexps_2303_"
-"uiAreaHatchDve_c"="0,1,-1,-1,-1,-1,0,0,230,396"
+"uiAreaHatchDve_c"="0,1,-1,-1,-1,-1,0,0,230,400"
 "uiAreaHatchDve_copts"="dexps_14_"
 "uiAuxViewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,230,710"
 "uiAuxViewDveDlg_copts"="dexps_2431_"
@@ -11907,16 +11955,16 @@ REGEDIT4
 "uiAutoBalloonDveDlg_copts"="dexps_426047_tfmexps_0_"
 "uiDrawingViewChangeRefDve_copts"="tfmexps_0_dexps_30_"
 "uiDrawingViewChangeRefDve_c"="0,1,-1,-1,-1,-1,0,0,230,496"
-"uiReplaceCompsDvePage_c"="0,1,-1,-1,-1,-1,0,0,511,385"
+"uiReplaceCompsDvePage_c"="0,1,-1,-1,-1,-1,0,0,447,385"
 "uiReplaceCompsDvePage_copts"="tfmexps_0_dexps_6_"
-"uiReplaceMateEntsDvePage_c"="0,1,-1,-1,-1,-1,0,0,511,388"
+"uiReplaceMateEntsDvePage_c"="0,1,-1,-1,-1,-1,0,0,447,388"
 "uiReplaceMateEntsDvePage_copts"="dexps_5_tfmexps_0_"
-"skSlotCreateDialog_c"="0,1,-1,-1,-1,-1,0,0,245,422"
+"skSlotCreateDialog_c"="0,1,-1,-1,-1,-1,0,0,321,422"
 "skSlotCreateDialog_copts"="dexps_407_tfmexps_0_"
-"skSlotEditDialog_c"="0,1,-1,-1,-1,-1,0,0,245,581"
+"skSlotEditDialog_c"="0,1,-1,-1,-1,-1,0,0,321,581"
 "skSlotEditDialog_copts"="dexps_407_tfmexps_0_"
-"uiInterferDveDlg_c"="0,1,-1,-1,-1,-1,0,0,613,823"
-"uiInterferDveDlg_copts"="dexps_62_tfmexps_0_"
+"uiInterferDveDlg_c"="0,1,-1,-1,-1,-1,0,0,525,720"
+"uiInterferDveDlg_copts"="dexps_30_tfmexps_0_"
 "uiCoordSysDveDlg_copts"="tfmexps_1_dexps_2_pin_0_"
 "uiCoordSysDveDlg_c"="0,1,-1,-1,-1,-1,0,0,209,226"
 "uiHoleSeriesPlacementPage_c"="0,1,-1,-1,-1,-1,0,0,373,137"
@@ -11929,19 +11977,19 @@ REGEDIT4
 "uiHSEndHoleSpec_copts"="dexps_479_tfmexps_0_"
 "uiPlaneNewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,423,587"
 "uiPlaneNewDveDlg_copts"="dexps_15_tfmexps_1_"
-"uiRefAxisDveDlg_copts"="tfmexps_0_dexps_2_pin_0_"
-"uiRefAxisDveDlg_c"="0,1,-1,-1,-1,-1,0,0,257,236"
+"uiRefAxisDveDlg_copts"="tfmexps_1_dexps_2_pin_0_"
+"uiRefAxisDveDlg_c"="0,1,-1,-1,-1,-1,0,0,209,252"
 "uiSketchFilletDveDlg_copts"="tfmexps_0_dexps_7_pin_1_"
-"uiSketchFilletDveDlg_c"="0,1,-1,-1,-1,-1,0,0,197,279"
-"uiDveSketchReplaceEntityDlg_c"="0,1,-1,-1,-1,-1,0,0,229,289"
+"uiSketchFilletDveDlg_c"="0,1,-1,-1,-1,-1,0,0,353,266"
+"uiDveSketchReplaceEntityDlg_c"="0,1,-1,-1,-1,-1,0,0,325,276"
 "uiDveSketchReplaceEntityDlg_copts"="dexps_3_makeconstruction_1_deletereplacedent_0_makesolid_1_pin_0_"
-"uiLoftDveDlg_copts"="tfmexps_0_dexps_261902_"
-"uiLoftDveDlg_c"="0,1,-1,-1,-1,-1,0,0,253,594"
+"uiLoftDveDlg_copts"="tfmexps_0_dexps_261966_"
+"uiLoftDveDlg_c"="0,1,-1,-1,-1,-1,0,0,197,624"
 "CShellMgrTableDlg"="0,1,-1,-1,-1,-1,0,0,2054,275"
 "uiScaleDlg_copts"="tfmexps_1_dexps_6_"
 "uiScaleDlg_c"="0,1,-1,-1,-1,-1,0,0,193,208"
-"uiDveImportFeatDlg_copts"="tfmexps_0_iso_1_isu_0_iax_1_ipl_1_ict_1_ias_1_ius_1_icp_0_ictfp_1_ictcp_0_iclp_0_ics_1_imd_0_ihwd_1_lmc_0_ism_0_iindp_0_dexps_31_"
-"uiDveImportFeatDlg_c"="0,1,-1,-1,-1,-1,0,0,609,414"
+"uiDveImportFeatDlg_copts"="tfmexps_0_iso_1_isu_0_iax_1_ipl_1_ict_1_ias_1_ius_1_icp_0_ictfp_0_ictcp_0_iclp_0_ics_1_imd_0_ihwd_1_lmc_0_ism_0_iindp_0_dexps_31_"
+"uiDveImportFeatDlg_c"="0,1,-1,-1,-1,-1,0,0,197,414"
 "uiCopyConfirmDlg_c"="0,1,-1,-1,-1,-1,3261,692,3606,879"
 "uiLocalLPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,511,449"
 "uiLocalLPatDvePage_copts"="dexps_63_"
@@ -11972,13 +12020,13 @@ REGEDIT4
 "uiVisIsolateNameDlg_c"="0,1,-1,-1,-1,-1,2371,104,2636,213"
 "uiMirSubAssemGenericDvePage_copts"="dexps_96_"
 "uiMirSubAssemFourthDvePage_copts"="iso_1_isu_0_iax_0_ipl_0_ict_1_ias_0_ius_0_icp_0_iclp_0_ics_0_imd_0_ihwd_1_pza_0_dexps_63_tfmexps_1_"
-"uiMirSubAssemGenericDvePage_c"="0,1,-1,-1,-1,-1,0,0,605,555"
-"uiMirSubAssemFourthDvePage_c"="0,1,-1,-1,-1,-1,0,0,605,513"
+"uiMirSubAssemGenericDvePage_c"="0,1,-1,-1,-1,-1,0,0,375,555"
+"uiMirSubAssemFourthDvePage_c"="0,1,-1,-1,-1,-1,0,0,375,513"
 "uiSurfCutDlg_c"="0,1,-1,-1,-1,-1,0,0,197,57"
 "uiSurfCutDlg_copts"="tfmexps_0_dexps_6_"
 "uiTrimRefSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,197,385"
 "uiTrimRefSurfaceDlg_copts"="dexps_14_tfmexps_0_tt_0_ts_0_sa_0_no_0_"
-"uiSMMiteredFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,201,378"
+"uiSMMiteredFlangeDlg_c"="0,1,-1,-1,-1,-1,0,0,197,411"
 "uiSMMiteredFlangeDlg_copts"="tfmexps_0_dexps_958_"
 "uiEdgeFlangeSketchSheet_c"="0,1,-1,-1,-1,-1,2755,198,3374,385"
 "uiSpeedpakDvePage_copts"="tfmexps_0_dexps_15_"
@@ -11987,8 +12035,8 @@ REGEDIT4
 "uiPlaneSectionDlg_copts"="tfmexps_0_dexps_7_"
 "uiFoldUpDownDlg_copts"="tfmexps_0_dexps_2_"
 "uiFoldUpDownDlg_c"="0,1,-1,-1,-1,-1,0,0,213,200"
-"uiSheetMetalDveDlg_copts"="tfmexps_0_dexps_122_"
-"uiSheetMetalDveDlg_c"="0,1,-1,-1,-1,-1,0,0,245,158"
+"uiSheetMetalDveDlg_copts"="tfmexps_0_dexps_126_"
+"uiSheetMetalDveDlg_c"="0,1,-1,-1,-1,-1,0,0,201,358"
 "uiJogDlg_c"="0,1,-1,-1,-1,-1,0,0,447,450"
 "uiJogDlg_copts"="dexps_30_"
 "uiMultipleViewsDlg_c"="0,1,-1,-1,-1,-1,0,0,185,365"
@@ -12004,14 +12052,14 @@ REGEDIT4
 "uiSectionScopeDlg_c"="0,1,-1,-1,-1,-1,9,27,620,310"
 "uiSweepThreadDveDlg_copts"="tfmexps_0_dexps_508407_"
 "uiSweepThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,201,864"
-"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,315,221"
-"uiSweepDveDlg_c"="0,1,-1,-1,-1,-1,0,0,197,294"
-"uiSweepDveDlg_copts"="dexps_451_tfmexps_0_st_0_et_0_"
+"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,197,141"
+"uiSweepDveDlg_c"="0,1,-1,-1,-1,-1,0,0,233,396"
+"uiSweepDveDlg_copts"="dexps_1475_tfmexps_0_st_0_et_0_"
 "uiSelectAnnotationViewDlg_c"="0,1,-1,-1,-1,-1,3191,1512,3334,1612"
 "uiDveSketchConvertEntDlg_copts"="tfmexps_0_"
 "uiSelectorSheet_c"="0,1,-1,-1,-1,-1,3127,523,3792,1066"
 "uiFindInFMTree_c"="0,1,-1,-1,-1,-1,3191,722,3542,842"
-"uiRipDveDlg_c"="0,1,-1,-1,-1,-1,0,0,245,141"
+"uiRipDveDlg_c"="0,1,-1,-1,-1,-1,0,0,201,141"
 "uiRipDveDlg_copts"="dexps_2_"
 "uiCircularSketchPatternDlg_copts"="tfmexps_0_dexps_18_"
 "uiCircularSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,209,472"
@@ -12035,6 +12083,20 @@ REGEDIT4
 "uiSurfWrappingSketchDveDlg_c"="0,1,-1,-1,-1,-1,0,0,209,255"
 "uiClearanceDveDlg_c"="0,1,-1,-1,-1,-1,0,0,589,735"
 "uiClearanceDveDlg_copts"="tfmexps_0_dexps_30_"
+"mfcutAdvancedMessageBox_c"="0,1,-1,-1,-1,-1,3240,754,3748,968"
+"sceneDveBasicPage_c"="0,1,-1,-1,-1,-1,0,0,314,522"
+"sceneDveBasicPage_copts"="tfmexps_0_dexps_47_"
+"sceneDveAdvancedPage_c"="0,1,-1,-1,-1,-1,0,0,314,463"
+"sceneDveAdvancedPage_copts"="dexps_1071_"
+"uiSketchLoopsDve_c"="0,1,-1,-1,-1,-1,0,0,269,194"
+"uiSketchLoopsDve_copts"="tfmexps_0_dexps_3_"
+"uiLoopPropDve_c"="0,1,-1,-1,-1,-1,0,0,269,238"
+"uiLoopPropDve_copts"="dexps_22_"
+"uiCrossBreakDveDlg_copts"="tfmexps_0_dexps_3_"
+"uiCrossBreakDveDlg_c"="0,1,-1,-1,-1,-1,0,0,265,191"
+"uiCrossBreakSketchSheet_c"="0,1,-1,-1,-1,-1,3108,690,3727,877"
+"uiTemporaryFixGroupDlg_c"="0,1,-1,-1,-1,-1,2123,264,2390,544"
+"uiMeasureHistoryDlg_c"="0,1,-1,-1,-1,-1,2965,242,3217,583"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General]
 "uiMainToolBar_c"=dword:00000000
@@ -12129,7 +12191,7 @@ REGEDIT4
 "sizeHorzCX"=dword:00000659
 "sizeHorzCY"=dword:0000012c
 "sizeVertCX"=dword:00000168
-"sizeVertCY"=dword:000005d9
+"sizeVertCY"=dword:000005e0
 "sizeFloatCX"=dword:000000fa
 "sizeFloatCY"=dword:000001f4
 "autoHiding"=dword:00000001
@@ -12141,7 +12203,7 @@ REGEDIT4
 "_floatRestoreSizeCX"=dword:000000fa
 "_floatRestoreSizeCY"=dword:000001f4
 "_floatBarCollapsed"=dword:00000000
-"activeTabName"="ﾕｰｻﾞｰ定義ﾌﾟﾛﾊﾟﾃｨ"
+"activeTabName"="外観, ｼｰﾝ, ﾃﾞｶﾙ"
 "taskpaneDismissed"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar0]
@@ -12277,7 +12339,7 @@ REGEDIT4
 "Bar#124"=dword:00000000
 "Bar#125"=dword:00000000
 "Bar#126"=dword:00000000
-"Bar#127"=dword:0000e8a8
+"Bar#127"=dword:0001e8a8
 "Bar#128"=dword:00000000
 "Bar#129"=dword:00000000
 "Bar#130"=dword:00000000
@@ -12328,20 +12390,15 @@ REGEDIT4
 "MRUFloatYPos"=dword:0000022b
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar100]
-"BarID"=dword:0000e83b
-"Visible"=dword:00000000
-"XPos"=dword:fffffffe
-"YPos"=dword:fffffffe
-"MRUWidth"=dword:0000007b
-"Docking"=dword:00000001
-"MRUDockID"=dword:00000000
-"MRUDockLeftPos"=dword:fffffffe
-"MRUDockTopPos"=dword:fffffffe
-"MRUDockRightPos"=dword:00000090
-"MRUDockBottomPos"=dword:0000001f
-"MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:00000160
-"MRUFloatYPos"=dword:000001b5
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:00000f2e
+"YPos"=dword:0000039a
+"Bars"=dword:00000003
+"Bar#0"=dword:00000000
+"Bar#1"=dword:0000e8a8
+"Bar#2"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar101]
 "BarID"=dword:0000e83c
@@ -12455,13 +12512,13 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar11]
 "BarID"=dword:0000e808
 "Visible"=dword:00000000
-"XPos"=dword:0000000e
+"XPos"=dword:0000011b
 "MRUWidth"=dword:00000073
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81b
-"MRUDockLeftPos"=dword:0000000e
+"MRUDockLeftPos"=dword:0000011b
 "MRUDockTopPos"=dword:ffffffff
-"MRUDockRightPos"=dword:000000ac
+"MRUDockRightPos"=dword:000001b9
 "MRUDockBottomPos"=dword:00000021
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:000008d7
@@ -12499,9 +12556,9 @@ REGEDIT4
 "YPos"=dword:00000015
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81c
-"MRUDockLeftPos"=dword:ffffffff
+"MRUDockLeftPos"=dword:00000000
 "MRUDockTopPos"=dword:00000015
-"MRUDockRightPos"=dword:00000022
+"MRUDockRightPos"=dword:00000023
 "MRUDockBottomPos"=dword:000001da
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:ffffffff
@@ -12564,8 +12621,8 @@ REGEDIT4
 "MRUDockRightPos"=dword:00000294
 "MRUDockBottomPos"=dword:00000021
 "MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:00000498
-"MRUFloatYPos"=dword:0000033f
+"MRUFloatXPos"=dword:000008b4
+"MRUFloatYPos"=dword:000002cb
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar18]
 "BarID"=dword:0000e814
@@ -13418,14 +13475,15 @@ REGEDIT4
 "MRUDockRightPos"=dword:00000000
 "MRUDockBottomPos"=dword:00000000
 "MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:00000c4b
-"MRUFloatYPos"=dword:00000292
+"MRUFloatXPos"=dword:00000c26
+"MRUFloatYPos"=dword:00000307
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Bar66]
 "BarID"=dword:0000e8a8
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
 "YPos"=dword:fffffffe
+"MRUWidth"=dword:00000036
 "Docking"=dword:00000001
 "MRUDockID"=dword:00000000
 "MRUDockLeftPos"=dword:00000000
@@ -13444,7 +13502,7 @@ REGEDIT4
 "MRUDockLeftPos"=dword:ffffffff
 "MRUDockTopPos"=dword:ffffffff
 "MRUDockRightPos"=dword:00000167
-"MRUDockBottomPos"=dword:000005d8
+"MRUDockBottomPos"=dword:000005df
 "MRUFloatStyle"=dword:00000004
 "MRUFloatXPos"=dword:ffffffff
 "MRUFloatYPos"=dword:ffffffff
@@ -13686,8 +13744,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000b10
-"YPos"=dword:00000308
+"XPos"=dword:000008bc
+"YPos"=dword:000002ea
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e813
@@ -13697,8 +13755,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000cb8
-"YPos"=dword:0000040c
+"XPos"=dword:00000cb9
+"YPos"=dword:00000424
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e858
@@ -13708,8 +13766,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000ba5
-"YPos"=dword:00000229
+"XPos"=dword:00000f8a
+"YPos"=dword:0000037a
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e856
@@ -13719,8 +13777,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000001e
-"YPos"=dword:0000009c
+"XPos"=dword:0000001f
+"YPos"=dword:000000b4
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e855
@@ -13730,8 +13788,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000cae
-"YPos"=dword:00000387
+"XPos"=dword:00000caf
+"YPos"=dword:0000039f
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e857
@@ -13741,15 +13799,15 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000c53
-"YPos"=dword:000002b1
+"XPos"=dword:00000c2e
+"YPos"=dword:00000326
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e8a5
 "Bar#2"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\General-Summary]
-"Bars"=dword:00000064
+"Bars"=dword:00000065
 "ScreenCX"=dword:00000780
 "ScreenCY"=dword:00000438
 
@@ -13763,19 +13821,19 @@ REGEDIT4
 "Knitting Gap Min"="2.5e-006"
 "Knitting Gap Max"="0.0001"
 "Hole Wizard Flip Dir"=dword:00000000
-"Hole Wizard End Condition"=dword:00000000
-"Hole Wizard Depth Value"="5.1"
-"Edge Flange Outer Virtual Sharp"=dword:00000000
-"Edge Flange Inner Virtual Sharp"=dword:00000001
+"Hole Wizard End Condition"=dword:00000002
+"Hole Wizard Depth Value"="3.4"
+"Edge Flange Outer Virtual Sharp"=dword:00000001
+"Edge Flange Inner Virtual Sharp"=dword:00000000
 "Edge Flange Tangent Bend"=dword:00000000
-"Edge Flange Material Inside"=dword:00000001
+"Edge Flange Material Inside"=dword:00000000
 "Edge Flange Material Outside"=dword:00000000
-"Edge Flange Bend Outside"=dword:00000000
+"Edge Flange Bend Outside"=dword:00000001
 "Edge Flange Bend From Virtual Sharp"=dword:00000000
 "Edge Flange Tangent To Bend"=dword:00000000
 "Edge Flange Trim Side Bends"=dword:00000000
-"Edge Flange Offset"=dword:00000001
-"Edge Flange Offset Distance"="0.003"
+"Edge Flange Offset"=dword:00000000
+"Edge Flange Offset Distance"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\Saved Views]
 "SubKeyIndex"=dword:00000002
@@ -13785,7 +13843,7 @@ REGEDIT4
 "ViewDlgState"="0"
 "MeasureDlgState"="0"
 "FeaturePaletteState"="0"
-"WindowPos"="0,1,-32000,-32000,-1,-1,2350,7,4487,1567"
+"WindowPos"="0,1,-1,-1,-1,-1,2350,0,4487,1567"
 "swStyles"="Blue"
 "SaveDlgLimits"="4294967295,4294967295"
 "QuickPickBtnState"=dword:00000000
@@ -13849,7 +13907,7 @@ REGEDIT4
 "gestureDiagDownLeft"=dword:0000809e
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\User Interface\Settings\NormalViewMode]
-"FMTreeVisibility"=dword:00000000
+"FMTreeVisibility"=dword:00000001
 "ToolBarsVisibility"=dword:00000001
 "AnimationPaneVisibility"=dword:00000001
 
@@ -14388,7 +14446,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="0.78539816339745"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2]
 
@@ -14523,7 +14581,7 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="0.78539816339745"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2"="1.5707963267949"
@@ -14734,7 +14792,7 @@ REGEDIT4
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean OverrideThickness0AutoActivePacket"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean ReverseThickness0AutoActivePacket]
-"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean ReverseThickness0AutoActivePacket"="0"
+"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean ReverseThickness0AutoActivePacket"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean ShowBendCallouts0AutoActivePacket]
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Boolean ShowBendCallouts0AutoActivePacket"="1"
@@ -14764,19 +14822,19 @@ REGEDIT4
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRadius0AutoActivePacket"="0.00075"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRipGap0AutoActivePacket]
-"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRipGap0AutoActivePacket"="0.0012"
+"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRipGap0AutoActivePacket"="0.001"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRipOverlapRatio0AutoActivePacket]
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double DefaultRipOverlapRatio0AutoActivePacket"="0.5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double RipGapOSW0AutoActivePacket]
-"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double RipGapOSW0AutoActivePacket"="0.0015"
+"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double RipGapOSW0AutoActivePacket"="0.001"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double RipOverlapRatioOSW0AutoActivePacket]
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double RipOverlapRatioOSW0AutoActivePacket"="0.5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double SheetThickness0AutoActivePacket]
-"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double SheetThickness0AutoActivePacket"="0.001"
+"SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Double SheetThickness0AutoActivePacket"="0.0015"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Int32 AutoReliefType0AutoActivePacket]
 "SolidCore\SolidToSheetMetalRequest_c\BendRipMainPacket_c\Int32 AutoReliefType0AutoActivePacket"="0"
@@ -14859,10 +14917,10 @@ REGEDIT4
 "SolidToSheetMetalRequest_c\BendRipMainPacket_c\KeepBody"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidToSheetMetalRequest_c\BendRipMainPacket_c\ReverseThickness]
-"SolidToSheetMetalRequest_c\BendRipMainPacket_c\ReverseThickness"="0"
+"SolidToSheetMetalRequest_c\BendRipMainPacket_c\ReverseThickness"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidToSheetMetalRequest_c\BendRipMainPacket_c\SheetThickness]
-"SolidToSheetMetalRequest_c\BendRipMainPacket_c\SheetThickness"="0.001"
+"SolidToSheetMetalRequest_c\BendRipMainPacket_c\SheetThickness"="0.0015"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2016\WPF\SolidToSheetMetalRequest_c\BendRipMainPacket_c\ShowBendCallouts]
 "SolidToSheetMetalRequest_c\BendRipMainPacket_c\ShowBendCallouts"="1"
