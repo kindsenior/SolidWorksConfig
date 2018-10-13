@@ -2,8 +2,8 @@
 This package is config files of SolidWorks
 
 - SolidWorks2016が推奨・条件
--- 2017でも動くらしいが若干不具合がでる場合がある
--- cygwinまたはgit-bashが必要(bash on windowsは未対応)
+  - 2017でも動くらしいが若干不具合がでる場合がある
+  - cygwinまたはgit-bashが必要(bash on windowsは未対応)
 
 - 設定方法
   - cygwinまたはgit-bashにてscripts/install-setting-file.shを実行してsettings/swSettings_\<User Name\>.sldregを生成
