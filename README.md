@@ -1,8 +1,8 @@
 # SolidWorksConfig
 This package is config files of SolidWorks
 
-- SolidWorks2016が推奨・条件
-  - 2017でも動くらしいが若干不具合がでる場合がある
+- 推奨・条件
+  - SolidWorks2016が推奨．2017でも動くらしいが若干不具合がでる場合がある
   - cygwinまたはgit-bashが必要(bash on windowsは未対応)
 
 - 設定方法
