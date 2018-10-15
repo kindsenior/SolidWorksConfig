@@ -13,8 +13,8 @@ This package is config files of SolidWorks
 - 使用条件
   - 現状はディレクトリとファイル名等を以下の構成にする必要がある
   ```
-  <directory-name>/<part-name>.sldprt
-  <directory-name>/dft/<draft-name>.slddraw
+  <directory-name>/<file-name>.sldprt          <- part file name is same with draft file name
+  <directory-name>/dft/<file-name>.slddraw     <- draft file name is same with part file name
   ```
 
 - 使い方
