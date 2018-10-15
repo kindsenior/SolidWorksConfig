@@ -13,8 +13,12 @@ This package is config files of SolidWorks
 - 使い方
   - 発注図面のワンクリック出力(pdf,dxf,iges)
     - 単体部品での出力する場合
-      1. 出力したい図面ファイルを開く
+      1. 出力したい図面ファイルの名前をパーツファイルと揃える
+      1. パーツファイルがあるディレクトリにdftというディレクトリを作りその下に図面ファイルを置く
+      1. 図面ファイルを開く
       1. レイアウト表示タブの「SaveAsPDFandDXFandIGS」を押す(デスクトップにファイルが作成される)
+      1. 生成先をデスクトップ以外にしたい場合は, Solidworksのマクロ編集のアイコンをクリックして, SolidworksConfig/macro/PrepareToOrder.swpを開き， Microsoft Visual Basic for Applications(が起動するの)でmainに切り替えて, TargetPathName = Environ("HOMEDRIVE") + Environ("HOMEPATH") + "\Desktop\" '決め打ち グローバル変数 の部分のパスを変えればよい
+
     - アセンブリ単位(ロボットとかリンクとか)での一斉出力する場合
       1. 出力したいアセンブリファイルを開く
       1. order-listをテーブルテンプレートとして部品表を挿入
