@@ -10,6 +10,13 @@ This package is config files of SolidWorks
   1. SolidWorksを起動して設定の保存/回復→設定の回復で生成したsldregファイルを指定して次へ
   1. 完了
 
+- 使用条件
+  - 現状はディレクトリとファイル名等を以下の構成にする必要がある
+  ```
+  <directory-name>/<part-name>.sldprt
+  <directory-name>/dft/<draft-name>.slddraw
+  ```
+
 - 使い方
   - 発注図面のワンクリック出力(pdf,dxf,iges)
     - 単体部品での出力する場合
