@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CPTemplate>
-  <AppVersion>24</AppVersion>
+  <AppVersion>26</AppVersion>
   <CPSheet>
     <GroupBox Label="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ" PropName="ｸﾞﾙｰﾌﾟﾎﾞｯｸｽ2" DefaultState="Expanded">
-      <Control Label="図番タイプ" PropName="図番タイプ" ApplyTo="Global" Type="ComboBox" UserDefineable="False">
+      <Control Label="図番タイプ" PropName="図番タイプ" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="False">
         <Data Path="" SourceType="List">
           <Item>一般図番</Item>
           <Item>ダミー図番</Item>
@@ -12,17 +12,17 @@
           <Item>Limb</Item>
         </Data>
       </Control>
-      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+      <Control Label="ロボット番号" PropName="ロボット番号" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>J3</Item>
           <Item>J1</Item>
           <Item>S</Item>
         </Data>
       </Control>
-      <Control Label="図番" PropName="図番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
-      <Control Label="個数" PropName="個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
-      <Control Label="鏡映個数" PropName="鏡映個数" ApplyTo="Global" Type="NumericCtrl" DefaultValue="0" />
-      <Control Label="発注先" PropName="発注先" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+      <Control Label="図番" PropName="図番" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="個数" PropName="個数" ApplyTo="Global" Type="NumericCtrl" ReadOnly="False" DefaultValue="0" />
+      <Control Label="鏡映個数" PropName="鏡映個数" ApplyTo="Global" Type="NumericCtrl" ReadOnly="False" DefaultValue="0" />
+      <Control Label="発注先" PropName="発注先" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>新妻精機</Item>
           <Item>蒲郡製作所</Item>
@@ -38,16 +38,17 @@
           <Item>モノタロウ</Item>
         </Data>
       </Control>
-      <Control Label="表面処理" PropName="表面処理" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+      <Control Label="表面処理" PropName="表面処理" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
         <Data Path="" SourceType="List">
           <Item>黒アルマイト</Item>
           <Item>白アルマイト</Item>
           <Item>青アルマイト</Item>
           <Item>赤アルマイト</Item>
           <Item>黒染め</Item>
+          <Item>無電解ニッケルメッキ</Item>
         </Data>
       </Control>
-      <Control Label="型番" PropName="型番" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="型番" PropName="型番" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
     </GroupBox>
   </CPSheet>
 </CPTemplate>
